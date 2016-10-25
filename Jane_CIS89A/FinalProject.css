@@ -1,0 +1,63 @@
+body{
+	background-color: #B0E0E6;
+	color: black;
+	font-family:  Arial, Helvetica, sans-serif;
+ }
+
+h1 {
+	text-align:	center;
+}
+
+h3 {
+	color: red;
+}
+  
+table#paris {
+	width:  1200px;
+	height: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+  
+table#paris th, table#paris td {
+	padding: 15px; 
+	width: 200px;
+	text-align: left;
+	vertical-align: center;
+	border-bottom: 1px solid black
+}
+
+#center {
+	list-style-position: inside;
+}
+
+#justify {
+	text-align: justify;
+}
+
+#restaurant {
+	display:table-cell; 
+    vertical-align:middle; 
+    padding:0 50px;
+	text-align: justify;	
+}
+
+a:link {
+	color: #000080;
+}
+
+a:visited {
+  color: #4B0082;
+  }
+  
+a:hover{
+  color: #FF8C00;
+}
+
+#bottom {
+	text-align:	center;
+}
+
+
+
+

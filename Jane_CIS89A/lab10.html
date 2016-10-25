@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Australia</title>
+		<link type="text/css" rel="stylesheet" href="lab10.css"/>
+	</head>
+	
+	<body>
+		<form method="post" action="http://www.example.com/cgi-bin/process-order.pl">
+			<table id="form">
+				<tr>
+					<td colspan="2"> 
+						<h1>Tourism Australia</h1>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						Full Name:
+					</td>
+					<td>
+						<input type="text" name="FullName" size="14" maxlength="30" /> 
+					</td>
+				</tr>
+			 
+				<tr>
+					<td>
+						Mailing Address:
+					</td>
+					<td>
+						<textarea name="address" rows="4" cols="60">
+						</textarea>
+					</td>      
+				</tr>  
+
+				<tr>
+					<td>
+						Preferred City:
+					</td>
+					<td>
+						<select name="city" size="6">
+							<option value="Adelaide">Adelaide</option>
+							<option value="Alice Springs">Alice Springs</option>
+							<option value="Brisbane">Brisbane</option>
+							<option value="Broome">Broome</option>
+							<option value="Cairns">Cairns</option>
+							<option value="Canberra">Canberra</option>
+							<option value="Darwin">Darwin</option>
+							<option value="Gold Coast">Gold Coast</option>
+							<option value="Hobart">Hobart</option>
+							<option value="Melbourne">Melbourne</option>
+							<option value="Perth">Perth</option>
+							<option value="Sydney">Sydney</option>
+						</select>
+					</td>
+				</tr>    
+		  
+				<tr>
+					<td>
+						Preferred Season:
+					</td>
+					<td>
+						<input type="radio" name="season" value="Spring" checked="checked" />
+							Spring: <i>September - November</i><br />
+						<input type="radio" name="season" value="Summer" />
+							Summer: <i>December - February</i><br />
+						<input type="radio" name="season" value="Fall" />
+							Fall: <i>March - May</i><br />
+						<input type="radio" name="season" value="Winter" />
+							Winter: <i>June - August</i><br />
+					</td>   
+				</tr>
+
+				<tr>
+					<td>
+						Handicap-Accessible Accommodation:
+					</td>
+					<td>
+						<input type="checkbox" name="handicap"  value="yes" /> 
+					</td>
+				</tr> 
+
+				<tr>
+					<td>
+						Reset:
+					</td>
+					<td>
+						<button type="reset">Erase all entries</button>
+					</td>
+				</tr>      
+			</table>
+		</form>
+		
+		<div id="bottom">
+			<a href="index.html">Return</a>
+			<p>&copy; Jie Tian</p>
+		</div>
+	</body>
+</html>
