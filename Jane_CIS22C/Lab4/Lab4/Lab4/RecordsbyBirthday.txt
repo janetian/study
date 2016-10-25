@@ -1,0 +1,27 @@
+Name:      Jane Tian
+Birhtday:  19820110
+
+Name:      Jay Chang
+Birhtday:  19790812
+
+Name:      Evian Miller
+Birhtday:  19760415
+
+Name:      Wallance Miller
+Birhtday:  19741130
+
+Name:      Jenny Chang
+Birhtday:  19791201
+
+Name:      Grace Shen
+Birhtday:  20090405
+
+Name:      Victor Shen
+Birhtday:  20130529
+
+Name:      Bella Chang
+Birhtday:  20090708
+
+Name:      Elsa Miller
+Birhtday:  20100723
+
